@@ -1,0 +1,58 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\title{MY FIRST LATEX PROJECT}
+\author{J.suryateja (b192653)}
+\institute{RGUKT BASAR}
+\date{09 August 2003}
+\logo {
+\includegraphics[width = 2cm]{logo.png}
+}
+\titlegraphic{
+\includegraphics[width = 5cm]{logo.png}
+}
+\begin{document}
+\begin{frame}
+\titlepage
+    
+\end{frame}
+\begin{frame}{personal Details}
+ \begin{block}
+ \\
+ NAME : JENNU SURYATEJA\\
+ ID : B192653\\
+ CLASS : CSE C5\\
+ \end{block}
+
+\end{frame}
+\begin{frame}{coures}
+\begin{enumerate}[(A)]
+    \item CSE\\
+     \item CSE\\
+      \item CSE\\
+       \item CSE\\
+\end{enumerate}
+    
+\end{frame}
+\begin{frame}{Frame Title}
+     \begin{flushright}
+    \begin{tabular}{|c|c|c|}
+         \hline
+         NAME & AGE & S \\
+         \hline
+          
+         NAME & AGE & S \\
+         \hline
+          
+         NAME & AGE & S \\
+         \hline
+          
+         NAME & AGE & S\\
+         \hline
+    \end{tabular}
+    \end{flushright}
+\end{frame}
+\begin{frame}{Frame Title}
+\centering
+\includegraphics[width=100px,height =200px]{logo.png}
+\end{frame}
+\end{document}
